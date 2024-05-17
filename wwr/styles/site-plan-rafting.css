@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+--primary-color: #3366FF;
+--secondary-color: #FF9900;
+--accent1-color: #66CC99;
+--accent2-color: #FF6666;
+
+--heading-font: 'Arial', sans-serif;
+--paragraph-font: 'Helvetica', sans-serif;
+
+--nav-background-color: #333333;
+--nav-link-color: #FFFFFF;
+--nav-hover-link-color: #FFCC00;
+--nav-hover-background-color: #444444;
+}
+
+body {
+font-family: 'Roboto', sans-serif, var(--paragraph-font);
+max-width: 1200px;
+padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: var(--heading-font);
+color: var(--primary-color);
+}
+
+header {
+padding: 20px;
+background-color: var(--accent1-color);
+}
+
+p {
+padding: 25px;
+}
+
+nav {
+background-color: var(--nav-background-color);
+font-size: 1.2rem;
+display: flex;
+}
+
+nav a {
+display: block;
+color: var(--nav-link-color);
+text-decoration: none;
+padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+color: var(--nav-link-color);
+}
+
+nav a:hover {
+color: var(--nav-hover-link-color);
+background-color: var(--nav-hover-background-color);
+}
+
+img {
+width: 150;
+height: auto;
+}
